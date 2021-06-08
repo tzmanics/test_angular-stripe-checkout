@@ -1,5 +1,5 @@
 {
-  "name": "angular-universal-pre-render",
+  "name": "angular-stripe-checkout",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,10 +8,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev:ssr": "ng run angular-universal-pre-render:serve-ssr",
-    "serve:ssr": "node dist/angular-universal-pre-render/server/main.js",
-    "build:ssr": "ng build --prod && ng run angular-universal-pre-render:server:production",
-    "prerender": "ng run angular-universal-pre-render:prerender",
+    "dev:ssr": "ng run angular-stripe-checkout:serve-ssr",
+    "serve:ssr": "node dist/angular-stripe-checkout/server/main.js",
+    "build:ssr": "ng build --prod && ng run angular-stripe-checkout:server:production",
+    "prerender": "ng run angular-stripe-checkout:prerender",
     "fix": "prettier --config ./.prettierrc --write \"src/**/**/*{.ts,.js,.json,.css,.scss}\""
   },
   "private": true,
