@@ -1,11 +1,11 @@
 <div class="products">
   <main class="products-list">
-    <app-product-list
-      class="product-item"
-      *ngFor="let product of products"
-      [product]="product"
-    >
+    <div class="product-item" *ngFor="let product of products">
       {{ product.name }}
-    </app-product-list>
+      <img [src]="product.image" />
+      {{ product.description }}
+      {{ product.price | currency }} |
+      <button (click)="triggerCreateCheckout(product)">Buy Now</button>
+    </div>
   </main>
 </div>

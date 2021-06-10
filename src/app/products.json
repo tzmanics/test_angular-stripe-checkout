@@ -1,0 +1,25 @@
+[
+  {
+    "name": "test",
+    "id": 1,
+    "price": "1.23",
+    "url": "https://netlify.com",
+    "image": "https://bit.ly/3wdUsFW",
+    "description": "test"
+  },
+  {
+    "name": "test",
+    "id": 2,
+    "price": "1.23",
+    "url": "https://netlify.com",
+    "image": "https://bit.ly/3wdUsFW",
+    "description": "test"
+  },
+  {
+    "name": "test",
+    "id": 3,
+    "price": "1.23",
+    "url": "https://netlify.com",
+    "image": "https://bit.ly/3wdUsFW"
+  }
+]
