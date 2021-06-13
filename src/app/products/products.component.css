@@ -1,11 +1,39 @@
 .products {
   margin: 0 auto;
-  width: 80%;
+  text-align: center;
+  width: 95%;
 }
-
 .products p {
   font-family: 'Poiret One', sans-serif;
-  font-size: 40px;
+  font-size: 14px;
   margin: 50px;
-  text-align: center;
+}
+.product-item {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 15px;
+  min-width: 350px;
+  padding: 15px;
+  text-align: left;
+  width: 20%;
+}
+.product-item:nth-child(2) {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+.product-item h2 {
+  font-size: 20px;
+}
+.product-item img {
+  max-width: 300px;
+  max-height: 250px;
+}
+.buy-products {
+  margin-top: 30px;
+  border-top: 2px solid black;
+}
+.buy-products button {
+  cursor: pointer;
+  font-size: 20px;
 }
